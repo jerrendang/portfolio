@@ -1,0 +1,18 @@
+.logo {
+    height: fit-content;
+    width: fit-content;
+
+    font-family: monospace;
+    letter-spacing: 7px;
+    font-size: 1.2em;
+    /* background-color: yellow;  */
+    color: white;
+
+    transform: rotateZ(90deg)
+}
+
+.logoLine{
+    height: 100px;
+    width: 1px;
+    background-color: theme('colors.yellow');
+}

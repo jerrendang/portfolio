@@ -1,0 +1,33 @@
+
+/* ------------------------------------ */
+
+.navItem{
+    position: relative;
+}
+
+.background{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.navItemContainer{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+    background: transparent;
+    transition: width .2s;
+}
+
+.navItemForeground{
+    color: black;
+    
+    transition: width .2s;
+    background-color: theme('colors.yellow');
+    overflow: hidden;
+}
+
+.navItemContainer:hover .navItemForeground{
+    width: 100%;
+}

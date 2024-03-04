@@ -1,0 +1,76 @@
+.startline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: flex-end;
+
+    grid-column: 1 / 1;
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+
+    background-color: theme('colors.white');
+    border-radius: 50%;
+}
+
+.line {
+    width: 1px;
+    height: 50vh;
+    background: linear-gradient(theme('colors.white'), #000000);
+}
+
+.reversedLine {
+    width: 1px;
+    height: 50vh;
+    background: linear-gradient(#000000, theme('colors.white'));
+}
+
+.displayContainer {
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.project{
+    grid-column: 2 / 3;
+    grid-template-columns: 1fr;
+
+    padding-left: 40px;
+}
+
+.netflixLogo{
+    color: #e50914;
+    font-size: 1.6em;
+
+    line-height: 1;
+    font-family: 'nf-icon';
+}
+
+.netflixLogo::before{
+    content: '\e5d0';
+    display: relative;
+}
+
+/* .nfLogoContainer{
+    animation: hover 3s ease-in-out infinite;
+} */
+
+.logoContainer{
+    animation: hover 3s ease-in-out infinite;
+}
+
+@keyframes hover{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-8px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
