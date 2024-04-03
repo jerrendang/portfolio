@@ -48,6 +48,19 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='project flex flex-row justify-start items-center'>
+                        <a className='logoContainer hover:cursor-pointer' target='_blank' href="https://product-page-atnt.onrender.com">
+                            <div className='flex flex-col items-center justify-center h-[50px] overflow-hidden'>
+                                <img src='https://mir-s3-cdn-cf.behance.net/project_modules/1400/ec669396767619.63bdc2e1bee2a.jpg' alt='therabodyLogo'/>
+                            </div>
+                        </a>
+                        <div className='flex flex-col pl-[50px] min-w-[250px]'>
+                            <div>Visual page for products made by Therabody.</div>
+                            <div>Assets pulled from the Therabody page and Behance.</div>
+                            <div>Built on <i>React</i> with future plans of implementing a shopping cart.</div>
+                            <a className='text-yellow hover:underline' href='https://product-page-atnt.onrender.com' target='_blank'>Live Site</a>
+                        </div>
+                    </div>
+                    <div className='project flex flex-row justify-start items-center'>
                         <a className='logoContainer hover:cursor-pointer' target='_blank' href="https://muscle-metrics.onrender.com/">
                             <div className=' flex flex-col items-center '>
                                 <div>Muscle</div>
