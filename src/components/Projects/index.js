@@ -35,6 +35,20 @@ const Projects = () => {
                 </div>
                 <div className='h-full flex flex-col items-cente justify-evenly'>
                     <div className='project flex flex-row justify-start items-center'>
+                        <a className='logoContainer hover:cursor-pointer' target='_blank' href="https://cloudnine.onrender.com/">
+                            <div className=' flex flex-col items-center '>
+                                <div>CloudNine Clothing MarketPplace</div>
+                            </div>
+                        </a>
+                        <div className='flex flex-col pl-[50px] min-w-[250px]'>
+                            <div>Site for users to buy and sell clothing.</div>
+                            <div><a href='https://stripe.com/' target='_blank' className='text-yellow hover:underline'>Stripe</a> implementation to process purchases.</div>
+                            <div>Frontend built upon React and Redux.</div>
+                            <div>Backend built on Express storing data in Postgres and AWS S3.</div>
+                            <a className='text-yellow hover:underline' href='https://cloudnine.onrender.com/' target='_blank'>Live Site</a>
+                        </div>
+                    </div>
+                    <div className='project flex flex-row justify-start items-center'>
                         <a className='logoContainer hover:cursor-pointer' target='_blank' href="https://almostnetflix.onrender.com/">
                             <div className='nfLogoContainer flex flex-col items-center rounded-lg p-[10px]'>
                                 <div><i>Almost</i></div>
@@ -54,25 +68,10 @@ const Projects = () => {
                             </div>
                         </a>
                         <div className='flex flex-col pl-[50px] min-w-[250px]'>
-                            <div>Visual page for products made by Therabody.</div>
+                            <div>Visual page for products made by <a href='https://www.therabody.com/' target="_blank" className='text-yellow hover:underline'>Therabody</a>.</div>
                             <div>Assets pulled from the Therabody page and Behance.</div>
                             <div>Built on <i>React</i> with future plans of implementing a shopping cart.</div>
                             <a className='text-yellow hover:underline' href='https://product-page-atnt.onrender.com' target='_blank'>Live Site</a>
-                        </div>
-                    </div>
-                    <div className='project flex flex-row justify-start items-center'>
-                        <a className='logoContainer hover:cursor-pointer' target='_blank' href="https://muscle-metrics.onrender.com/">
-                            <div className=' flex flex-col items-center '>
-                                <div>Muscle</div>
-                                <div className='bg-[#A0DEFF] text-black p-[5px] rounded-2xl'>Metrics</div>
-                            </div>
-                        </a>
-                        <div className='flex flex-col pl-[50px] min-w-[250px]'>
-                            <div>An app built for tracking fitness data at the gym.</div>
-                            <div>Users log in to log entries and the reps done in the gym are then graohed for visual progress.</div>
-                            <div>Frontend built upon React and Redux.</div>
-                            <div>Backend built on Express and connected to the postgres database with sequelize.</div>
-                            <a className='text-yellow hover:underline' href='https://muscle-metrics.onrender.com/' target='_blank'>Live Site</a>
                         </div>
                     </div>
                 </div>
