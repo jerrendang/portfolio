@@ -6,8 +6,8 @@ const Navbar = () => {
     const onScreenElement = useSelector(state => state.elementOnScreen.element);
 
     return (
-        <div className='w-fit h-[100vh] flex flex-row items-center justify-center m-[0] p-[0] fixed z-[1] right-0
-        lg:w-fit lg:h-[100vh]'>
+        <div className='w-fit h-[100vh] flex-row items-center justify-center m-[0] p-[0] fixed z-[1] right-0
+        hidden lg:w-fit lg:h-[100vh] lg:flex md:flex'>
             <div className='flex flex-col justify-between items-end text-[1em] tracking-[3px] pr-[10px]
             h-[30%]'>
                 <div className='navItem h-fit flex flex-row items-center'>
